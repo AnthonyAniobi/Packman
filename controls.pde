@@ -1,0 +1,31 @@
+void keyPressed()
+{
+  if(keyCode==LEFT)
+  {
+  left=true;
+  right=false;
+  up=false;
+  down=false;
+  }
+  if(keyCode==RIGHT)
+  {
+  right=true;
+  left=false;
+  up=false;
+  down=false;
+  }
+  if(keyCode==UP)
+  {
+    up=true;
+    down=false;
+    right=false;
+    left=false;
+  }
+  if(keyCode==DOWN)
+  {
+    up=false;
+    down=true;
+    right=false;
+    left=false;
+  }
+}
